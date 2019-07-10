@@ -1,0 +1,41 @@
+.person_card,
+.person_card_horizontal{
+    display: block;
+    margin-bottom: 1em;
+}
+.person_card_horizontal:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.person_card_photo, 
+.person_card_info {
+    display: block;
+}
+.person_card_info h3 { 
+    margin-top: 0.5em; 
+}
+.person_card_info h3>a{
+    color: #000000;                        
+}
+@media (min-width: 768px){
+    .person_card_info .h3, .person_card_info h3 {
+        font-size: 1.45rem;
+    }
+    .person_card_info .h5, .person_card_info h5 {
+        font-size: 1.15rem;
+        font-weight: 500;
+    }
+}
+.person_card_info h3, 
+.person_card_info h5 {
+    margin-bottom: 0.15em;
+}
+.person_card_horizontal .person_card_photo,
+.person_card_horizontal .person_card_info{
+    display: inline;
+    float: left;
+}
+.person_card_horizontal .person_card_photo{
+    margin-right: 1em;
+}
