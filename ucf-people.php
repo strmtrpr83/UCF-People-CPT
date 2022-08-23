@@ -2,7 +2,7 @@
 /*
 Plugin Name: UCF People Custom Post Type
 Description: Provides a people custom post type and related meta fields.
-Version: 1.0.3.1
+Version: 1.0.3.2
 Author: UCF Web Communications / UCF COS Web
 License: GPL3
 Github Plugin URI: UCF/UCF-People-CPT
