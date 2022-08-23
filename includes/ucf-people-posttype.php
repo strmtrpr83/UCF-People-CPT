@@ -68,7 +68,7 @@ if ( ! class_exists( 'UCF_People_PostType' ) ) {
 				'label'                 => __( $plural, 'ucf_people' ),
 				'description'           => __( $plural, 'ucf_people' ),
 				'labels'                => self::labels( $singular, $plural ),
-				'supports'              => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'custom-fields', ),
+				'supports'              => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields', ),
 				'taxonomies'            => self::taxonomies(),
 				'hierarchical'          => false,
 				'public'                => true,
